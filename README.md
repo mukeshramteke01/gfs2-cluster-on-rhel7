@@ -2,15 +2,14 @@
 
 
 #### Package install on the all nodes
-#### ==================================
 
-yum install -y pacemaker pcs psmisc policycoreutils-python
+	#yum install -y pacemaker pcs psmisc policycoreutils-python
 
-#setenforce 1
+	#setenforce 1
 
-#cat /etc/selinux/config |grep SELINUX |grep -v "#"
-SELINUX=enforcing
-SELINUXTYPE=targeted
+	#cat /etc/selinux/config |grep SELINUX |grep -v "#"
+	SELINUX=enforcing
+	SELINUXTYPE=targeted
 
 start pcsd services on the all nodes
 ========================================
