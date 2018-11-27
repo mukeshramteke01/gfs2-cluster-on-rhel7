@@ -348,7 +348,7 @@
 	# lvcreate -l100%FREE -n lv_cluster vg_cluster
   	  Logical volume "lv_cluster" created.
 	  
-#### Format the volume with a GFS2 file system. In this example, my_cluster is the cluster name. This example specifies -j 3 to indicate two journals because the number of journals you configure must equal the number of nodes in the cluster. 
+#### Format the volume with a GFS2 file system. In this example, my_cluster is the cluster name. This example specifies -j 3 to indicate 3 journals because the number of journals you configure must equal the number of nodes in the cluster. 
 
 	# mkfs.gfs2 -p lock_dlm -t mycluster:gfs2 -j 3 /dev/vg_cluster/lv_cluster
 	  /dev/vg_cluster/lv_cluster is a symbolic link to /dev/dm-6
