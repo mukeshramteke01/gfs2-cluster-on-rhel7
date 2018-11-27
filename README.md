@@ -1,4 +1,4 @@
-# gfs2 cluster on rhel7
+### gfs2 cluster on rhel7
 
 
 #### Package install on the all nodes
