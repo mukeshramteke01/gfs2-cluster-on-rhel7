@@ -85,11 +85,11 @@
 
 #### Create a target
 
-/iscsi> create iqn.2017-18.iscsi.server:tar1
-Created target iqn.2017-18.iscsi.server:tar1.
-Created TPG 1.
-Global pref auto_add_default_portal=true
-Created default portal listening on all IPs (0.0.0.0), port 3260.
+    /iscsi> create iqn.2017-18.iscsi.server:tar1
+    Created target iqn.2017-18.iscsi.server:tar1.
+    Created TPG 1.
+    Global pref auto_add_default_portal=true
+    Created default portal listening on all IPs (0.0.0.0), port 3260.
 
 #### Set ACL
 
